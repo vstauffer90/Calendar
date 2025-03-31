@@ -333,3 +333,6 @@ nextMonth.addEventListener('click', () => {
     currentDate.setMonth(currentDate.getMonth() + 1);
     generateCalendar(currentDate);
 });
+
+initializeCalendarData();
+generateCalendar(currentDate);
