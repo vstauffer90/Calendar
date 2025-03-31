@@ -3,7 +3,7 @@ const monthYear = document.getElementById('monthYear');
 const prevMonth = document.getElementById('prevMonth');
 const nextMonth = document.getElementById('nextMonth');
 const draggableArea = document.getElementById('draggable-area');
-let currentDate = new Date(2025, 2, 1); // March 2025
+let currentDate = new Date(); // Updates to current month in the year
 let calendarData = loadCalendarData();
 let draggedElement = null;
 
