@@ -19,7 +19,7 @@ body {
 }
 
 .draggable {
-    background: #9121f3;
+    background: #5e75e1;
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -59,7 +59,7 @@ body {
 }
 
 .dropped-item {
-    background: #9121f3;
+    background: #5e75e1;
     color: white;
     padding: 5px;
     margin: 2px;
