@@ -334,5 +334,6 @@ nextMonth.addEventListener('click', () => {
     generateCalendar(currentDate);
 });
 
+localStorage.clear();
 initializeCalendarData();
 generateCalendar(currentDate);
