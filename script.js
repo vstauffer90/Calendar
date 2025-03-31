@@ -333,8 +333,3 @@ nextMonth.addEventListener('click', () => {
     currentDate.setMonth(currentDate.getMonth() + 1);
     generateCalendar(currentDate);
 });
-
-// Clear localStorage for fresh initialization (remove in production)
-localStorage.clear();
-initializeCalendarData();
-generateCalendar(currentDate);
