@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Suppress favicon 404 error -->
+    <link rel="icon" href="data:,">
+    <title>Admin Ops Team Calendar</title>
+</head>
+<body>
+    <div class="container">
+        <div id="draggable-area">
+            <div class="draggable" draggable="true">Victoria AWA</div>
+            <div class="draggable" draggable="true">Victoria PPL</div>
+            <div class="draggable" draggable="true">Jasmine AWA</div>
+            <div class="draggable" draggable="true">Jasmine PPL</div>
+            <div class="draggable" draggable="true">Ivory AWA</div>
+            <div class="draggable" draggable="true">Ivory PPL</div>
+            <div class="draggable" draggable="true">Rachel AWA</div>
+            <div class="draggable" draggable="true">Rachel PPL</div>
+            <div class="draggable" draggable="true">HOLIDAY- TEAM OFF</div>
+            <div class="draggable" draggable="true">ADMIN OPS MEETING- TEAM ON SITE</div>
+            <div class="draggable" draggable="true">EVENT/CELEBRATION- ALL TEAM ON SITE</div>
+            <div class="draggable" draggable="true">Victoria- Summer Flex</div>
+            <div class="draggable" draggable="true">Jasmine- Summer Flex</div>
+            <div class="draggable" draggable="true">Ivory- Summer Flex</div>
+            <div class="draggable" draggable="true">Rachel- Summer Flex</div>
+        </div>
+
+        <div id="calendar-header">
+            <button id="prevMonth">Previous</button>
+            <h2 id="monthYear"></h2>
+            <button id="nextMonth">Next</button>
+        </div>
+
+        <div id="calendar"><p>Loading calendar...</p></div>
+    </div>
+    <!-- Firebase SDK (Compatibility, No Auth) -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-database-compat.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
